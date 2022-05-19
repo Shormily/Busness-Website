@@ -1,0 +1,107 @@
+.service-text{
+    align-items: center;
+    margin: 0;
+}
+.box-sizing{
+    width: 390px;
+    /* display: grid; */
+    padding: 25px;
+    box-sizing: border-box;
+    /* background-color:white; */
+    border-radius: 10px;
+    /* color:rgb(39, 36, 36); */
+    /* box-shadow: 2px 3px 5px rgb(25, 24, 24); */
+    /* justify-content: center; */
+    cursor:pointer;
+  } 
+  .service-img{
+    background-image:url(../Images/img3.png);
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* height: 30vh */
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.30rem 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* padding-top: 100px; */
+    /* text-align: center; */
+    /* margin-bottom: 20px; */
+    width:100%;
+    height: 28.100rem;
+  }
+  .button-service{
+      background-color:rgb(120, 203, 255);
+      border-radius: 25px;
+      border: none;
+      padding: 10px;
+    
+      
+      
+  }
+  .img-size{
+      width: 50%;
+      height: 50%;
+      margin-left: 100px;
+      
+      
+  }
+  .card-color{
+      background-color: rgb(25, 64, 171);
+      box-shadow: 3px 5px 29px rgb(69, 63, 63);
+      box-sizing: border-box;
+      border-radius: 10px;
+      cursor: pointer;
+      /* width: 390px; */
+  }
+
+  .servic-img{
+    background-image:url(../Images/img3.png);
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* height: 30vh */
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.30rem 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* padding-top: 100px; */
+    /* text-align: center; */
+    /* margin-bottom: 20px; */
+    width:100%;
+    height: 28.100rem;
+  }
+  .contact-service-btn{
+      border: none;
+      background-color:rgb(236, 211, 132);
+      padding: 15px;
+      border-radius: 25px;
+      width: 200px;
+  }
+  input[type=text] {
+    outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+  /* width: 500px; */
+  }
+  input:focus {
+    border-color: green
+  }
+  textarea{
+    outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+  width: 500px;
+  }
+  .center {
+    text-align: center;
+    width: 100%;
+}
+.serv-color{
+  border-color: blue;
+}
+.seren-color{
+  border-color: blue;
+}

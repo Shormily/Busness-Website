@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    
+    
+    
+}
+.align{
+  justify-content: center;
+  text-align: center;
+  margin-left: 38%;
+  
+
+}
+
+
+
+/* =========== Navbar =========== */
+
+.nav-bar { 
+    background:linear-gradient(rgba(0, 0, 0, 0.8),rgb(0,0,0,0.8));
+    /* background-color: rgb(28, 26, 25); */
+    justify-content: center;
+    color: aliceblue;
+    
+  }
+
+  /* nav link  */
+.nav-link {
+    font-size: 18px;
+    /* color: #2b2d42 !important; */
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 900;
+    padding: 5px 10px;
+    margin-left: 15px;
+    position: relative;
+    transition: 0.4s;
+    justify-content: center;
+  }
+.font{
+  font-family: 'M PLUS 1', sans-serif;
+    font-weight: 900;
+}
+
+.icon{
+  color: #af0b1e;
+  font-size: 40px;
+}
+  /* navlink hover  */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: 0.4s;
+    justify-content: center;
+  }
+
+  .nav-link:hover {
+    color:khaki;
+  }
+  .nav-link:hover.nav-link::after {
+    width: 100%;
+  }
+
+  .user-img {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }

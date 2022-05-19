@@ -1,0 +1,89 @@
+*{
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 900;
+}
+.Banner-image{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../Images/img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+  
+}
+.banner-text{
+    align-items: center;
+    margin: 0;
+    
+}
+.banner-button{
+    border: none;
+    background-image: url(../Images/img3.png);
+    padding: 15px;
+    border-radius: 25px;
+    width: 200px;
+    color: white;
+}
+
+.banner-seckond-part-img{
+    /* background-image: url(../Images/img3.png); */
+    background-color: black;
+}
+.banner-button-2{
+    border: none;
+    background-color:rgb(17, 87, 47);
+    padding: 15px;
+    border-radius: 25px;
+    width: 200px;
+}
+.banner-button-3{
+    border: none;
+    background-image: url(../Images/img3.png);
+    padding: 15px;
+    border-radius: 25px;
+    width: 200px;
+    color: white;
+}
+.banner-button-2:hover{
+    border: none;
+    background-color:rgb(212, 174, 125);
+    padding: 15px;
+    border-radius: 25px;
+    width: 200px;
+}
+.banner-last-img{
+    background-image:url(../Images/img11.jpg);
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* height: 30vh */
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.30rem 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* padding-top: 100px; */
+    /* text-align: center; */
+    /* margin-bottom: 20px; */
+    width:100%;
+    height: 28.100rem;
+  }
+
+.bg{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5));
+}
+.bg-color{
+    background-color: rgb(100, 76, 236);
+    box-shadow: 3px 5px 29px rgb(69, 63, 63);
+      box-sizing: border-box;
+      border-radius: 10px;
+      cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+h4{
+color: darkgreen;
+font-family: 'M PLUS 1', sans-serif;
+    font-weight: 1000;
+}
+.h1-color{
+    color: darkgreen;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+.googole-btn{
+    border: none;
+    background-color: rgb(82, 82, 224);
+    border-radius:5px ;
+    padding: 5px;
+    color: white;
+    
+}
+.googole-btn:hover{
+    border: none;
+    background-color:khaki;
+    border-radius:5px ;
+    padding: 5px;
+    color:black;
+    
+}
+h1{
+    font-family: 'Patua One', cursive;
+    font-weight: 500;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Patua One', cursive;
+    font-weight: 500;
+    font-size: 30px;
+}
+h3{
+    font-family: 'Patua One', cursive;
+    font-weight: 200;
+    font-size: 30px;
+    color: darkgreen;
+}
